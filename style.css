@@ -1,4 +1,66 @@
-p{
-    color: red; /* es el color del texto */
-    font-size: 20px; /* es el tamaño del texto */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #0f172a;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero,
+.tarjetas,
+.footer {
+    padding: 40px 80px;
+}
+
+.hero {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);   
+}
+
+.boton{
+    background-color:#0f172a;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.footer {
+    margin-top:100px;
 }
